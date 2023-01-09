@@ -16,7 +16,7 @@ filename = "Addition_result.csv"
 
 with open(filename, 'w') as csvfile:
   csvwriter = csv.writer(csvfile)
-  csvwriter.writeroe(result)
+  csvwriter.writerow(result)
 
 # In[ ]:
 
